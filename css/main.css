@@ -50,6 +50,11 @@ img {
     max-width: 100% ;
 }
 
+
+strong{
+    font-weight: var(--fw-bold);
+}
+
 /*typografy*/
 
 h1,
@@ -69,4 +74,27 @@ h2{
 
 h3{
     font-size: var(--fs-h3);
+}
+
+.section__tittle{
+    margin-bottom: .25em;
+
+}
+
+.section__tittle--intro{
+    font-weight: var(--fw-reg);
+}
+.section__tittle--intro strong{
+    display: block;
+}
+
+.section__subtittle{
+     margin: 0;
+     font-size: var(--fs-h3);
+}
+
+.section__subtittle--intro,
+.section__subtittle--about{
+    background: var(--clr-accent);
+    font-family: var(--clr-dark);
 }
