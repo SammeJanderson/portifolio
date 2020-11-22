@@ -1,189 +1,151 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Samme Janderson</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
+        
+        <!-- Update these with your own fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+        
+        <link rel="stylesheet" href="css/main.css">
 
-<head>
-
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--links-->
-    <link rel="icon" href="img/icn_halloween_cat-512.png">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css.map">
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">
-    <title>Samme Janderson</title>
-</head>
-
-<body>
-    <header>
-        <div class="logo">
-            <img src="img/logo.png" width="350" height="" alt="">
-        </div>
-        <button class="nav-toggle" aria-label="toggle navigation"><span class="hamburger"></span></button>
-        <nav class="nav">
-            <ul class="nav__list">
-                <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
-                <li class="nav__item"><a href="#skills" class="nav__link">My Skills</a></li>
-                <li class="nav__item"><a href="#about" class="nav__link">About Me</a></li>
-                <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <img src="img/logo.png" width="500px" alt="">
+            </div>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="#skills" class="nav__link">My skills</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <!-- Introduction -->
+        <section class="intro" id="home">
+            <h1 class="section__title section__title--intro">
+                Hi, I am <strong>Samme Janderson</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro"><strong>DEVELOPER</strong></p>
+            <img src="https://avatars0.githubusercontent.com/u/71139904?s=460&u=053e4ab44af4d7e1dfff928a7478f63d63553186&v=4" alt="profile picture" class="intro__img">
+        </section>
+        
+        
+        <!-- My services -->
+        <section class="my-services" id="services">
+            <h2 class="section__title section__title--services">What I do</h2>
+            <div class="services">
+                <div class="service">
+                    <h3>Java Language + Frameworks</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div> <!-- / service -->
+                
+                <div class="service">
+                    <h3>JavaScript Language + Frameworks</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div> <!-- / service -->
+                
+                <div class="service">
+                    <h3>SQL</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div> <!-- / service -->
+            </div> <!-- / services -->
+            
+            <a href="#work" class="btn">My Work</a>
+        </section>
+        
+        
+        <!-- About me -->
+        <section class="about-me" id="about">
+           <h2 class="section__title section__title--about">Who I am</h2>
+           <p class="section__subtitle section__subtitle--about">Self Taught Java Developer</p>
+           
+           <div class="about-me__body">
+               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+           </div>
+           
+           <img src="img/IMG-20191231-WA0037.jpg" alt="" class="about-me__img">
+        </section>
+        
+        <!-- My Work -->
+        <section class="my-work" id="work">
+            <h2 class="section__title">My work</h2>
+            <p class="section__subtitle"></p>
+            
+            <div class="portfolio">
+                <!-- Portfolio item 01 -->
+                <a href="#" class="portfolio__item">
+                    <img src="img/portifolio-01.jpg" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 02 -->
+                <a href="#" class="portfolio__item">
+                    <img src="img/portifolio-01.jpg" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 03 -->
+                <a href="#" class="portfolio__item">
+                    <img src="img/portifolio-01.jpg" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 04 -->
+                <a href="#" class="portfolio__item">
+                    <img src="img/portifolio-01.jpg" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 05 -->
+                <a href="#" class="portfolio__item">
+                    <img src="img/portifolio-01.jpg" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 06 -->
+                <a href="#" class="portfolio__item">
+                    <img src="img/portifolio-01.jpg" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 07 -->
+                <a href="#" class="portfolio__item">
+                    <img src="img/portifolio-01.jpg" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 08 -->
+                <a href="#" class="portfolio__item">
+                    <img src="img/portifolio-01.jpg" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 09 -->
+                <a href="#" class="portfolio__item">
+                    <img src="img/portifolio-01.jpg" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 0 0-->
+                <a href="#" class="portfolio__item">
+                    <img src="img/portifolio-01.jpg" alt="" class="portfolio__img">
+                </a>
+            </div>
+        </section>
+        
+        
+        <!-- Footer -->
+        <footer>
+            <!-- replace with your own email address -->
+            <a href="mailto:samme.san@gmail.com" class="footer__link">samme.san@gmail.com</a>
+            <ul class="social-list">
+                <li class="social-list__item"><a class="social-list__link" href="https://www.linkedin.com/in/samme-janderson-0147311b7/">a</a></li>
+                <li class="social-list__item"><a class="social-list__link" href="https://github.com/sammejanderson">d</a></li>
             </ul>
-        </nav>
-    </header>
-
-    <!--Introduction-->
-    <section class="intro" id="home">
-        <h1 class="section__tittle section__tittle--intro">
-            Hi, I am <strong>Samme Janderson</strong>
-            <p class="section__subtittle section__subtittle--intro">Developer</p>
-            <img src="img/icn_halloween_cat-512.png" alt="">
-        </h1>
-    </section>
-
-    <!--My services-->
-    <section class="my-services" id="skills">
-        <h2 class="section__tittle section__tittle--skills">What I do</h2>
-        <div class="services">
-            <div class="service">
-                <h3>Java Frameworks</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sed ligula augue. Sed ac dolor
-                    pulvinar, gravida justo in, gravida urna. Cras vestibulum mattis nibh, ut posuere neque porta sed.
-                    Donec dapibus magna mauris, non cursus felis imperdiet non. Nullam lacinia non lectus id lobortis.
-                    Curabitur volutpat faucibus turpis, at feugiat justo varius non. Etiam ullamcorper urna eget metus
-                    blandit vestibulum. In libero turpis, vehicula vitae mauris eget, gravida pharetra leo. Phasellus
-                    eget ante venenatis, pretium lectus eu, iaculis magna. Duis pellentesque quis tellus a tristique.
-                    Sed porttitor, neque at placerat aliquet, risus metus laoreet nibh, at dapibus eros tellus quis
-                    neque. Donec euismod sit amet lacus sed ultricies. Quisque pellentesque, turpis nec faucibus mattis,
-                    lacus tortor pretium libero, at ornare nulla elit id turpis.</p>
-            </div>
-            <!--/service-->
-
-            <div class="service">
-                <h3>JavaScript Frameworks</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sed ligula augue. Sed ac dolor
-                    pulvinar, gravida justo in, gravida urna. Cras vestibulum mattis nibh, ut posuere neque porta sed.
-                    Donec dapibus magna mauris, non cursus felis imperdiet non. Nullam lacinia non lectus id lobortis.
-                    Curabitur volutpat faucibus turpis, at feugiat justo varius non. Etiam ullamcorper urna eget metus
-                    blandit vestibulum. In libero turpis, vehicula vitae mauris eget, gravida pharetra leo. Phasellus
-                    eget ante venenatis, pretium lectus eu, iaculis magna. Duis pellentesque quis tellus a tristique.
-                    Sed porttitor, neque at placerat aliquet, risus metus laoreet nibh, at dapibus eros tellus quis
-                    neque. Donec euismod sit amet lacus sed ultricies. Quisque pellentesque, turpis nec faucibus mattis,
-                    lacus tortor pretium libero, at ornare nulla elit id turpis.</p>
-            </div>
-            <!--/service-->
-
-            <div class="service">
-                <h3>postgresSQL</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sed ligula augue. Sed ac dolor
-                    pulvinar, gravida justo in, gravida urna. Cras vestibulum mattis nibh, ut posuere neque porta sed.
-                    Donec dapibus magna mauris, non cursus felis imperdiet non. Nullam lacinia non lectus id lobortis.
-                    Curabitur volutpat faucibus turpis, at feugiat justo varius non. Etiam ullamcorper urna eget metus
-                    blandit vestibulum. In libero turpis, vehicula vitae mauris eget, gravida pharetra leo. Phasellus
-                    eget ante venenatis, pretium lectus eu, iaculis magna. Duis pellentesque quis tellus a tristique.
-                    Sed porttitor, neque at placerat aliquet, risus metus laoreet nibh, at dapibus eros tellus quis
-                    neque. Donec euismod sit amet lacus sed ultricies. Quisque pellentesque, turpis nec faucibus mattis,
-                    lacus tortor pretium libero, at ornare nulla elit id turpis.</p>
-            </div>
-            <!--/service-->
-        </div>
-
-        <a href="#work" class="btn">My Work</a>
-    </section>
-
-    <!--About Me-->
-    <section class="about-me" id="about">
-        <h2 class="section__tittle section__tittle--about">Who I am</h2>
-        <p class="section__subtittle section__subtittle--about">Self taught full-stack developer</p>
-        <div class="about-me__body">
-            <p></p>
-            <p></p>
-        </div>
-        <img src="" alt="">
-    </section>
-
-    <!--My work-->
-    <section class="my-work" id="work">
-        <h2 class="section__tittle section__tittle--my-work">My Work</h2>
-        <p class="section__subtittle"></p>
-
-        <div class="portifolio">
-            <!--Portifolio item 01-->
-            <a href="#" class="portifolio__item">
-                <img src="img/portifolio-01.jpg" width="250" alt="" class="portifolio__img">
-            </a>
-            <!--Portifolio item 02-->
-            <a href="#" class="portifolio__item">
-                <img src="img/portifolio-01.jpg" width="250" alt="" class="portifolio__img">
-            </a>
-
-            <!--Portifolio item 03-->
-            <a href="#" class="portifolio__item">
-                <img src="img/portifolio-01.jpg" width="250" alt="" class="portifolio__img">
-            </a>
-            <!--Portifolio item 04-->
-            <a href="#" class="portifolio__item">
-                <img src="img/portifolio-01.jpg" width="250" alt="" class="portifolio__img">
-            </a>
-            <!--Portifolio item 05-->
-            <a href="#" class="portifolio__item">
-                <img src="img/portifolio-01.jpg" width="250" alt="" class="portifolio__img">
-            </a>
-            <!--Portifolio item 06-->
-            <a href="#" class="portifolio__item">
-                <img src="img/portifolio-01.jpg" width="250" alt="" class="portifolio__img">
-            </a>
-            <!--Portifolio item 07-->
-            <a href="#" class="portifolio__item">
-                <img src="img/portifolio-01.jpg" width="250" alt="" class="portifolio__img">
-            </a>
-            <!--Portifolio item 08-->
-            <a href="#" class="portifolio__item">
-                <img src="img/portifolio-01.jpg" width="250" alt="" class="portifolio__img">
-            </a>
-            <!--Portifolio item 09-->
-            <a href="#" class="portifolio__item">
-                <img src="img/portifolio-01.jpg" width="250" alt="" class="portifolio__img">
-            </a>
-
-            <!--Portifolio item 00-->
-            <a href="#" class="portifolio__item">
-                <img src="img/portifolio-01.jpg" width="250" alt="" class="portifolio__img">
-            </a>
-
-        </div>
-    </section>
-
-
-
-    <!--Footer-->
-    <footer>
-        <a href="mailto:samme.san@gmail.com" class="footer-link">samme.san@gmail.com</a>
-        <ul class="social-list">
-            <li class="social-list__item"><a class="social-list__link" href="https://github.com/sammejandeson">a</a>
-            </li>
-            <li class="social-list__item"><a class="social-list__link" href="https://www.likedin.com.br">n</a></li>
-        </ul>
-    </footer>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <!--FontsAwesome-->
-    <script src="https://kit.fontawesome.com/ac1459de8d.js" crossorigin="anonymous"></script>
-
-
-</body>
-
-
+        </footer>
+        
+    </body>
 </html>
